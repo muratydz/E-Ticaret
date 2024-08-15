@@ -1,16 +1,15 @@
 import './App.css'
 import Header from './compoment/Header'
-import { Provider } from 'react-redux'
-import { store } from './redux/store'
-import ProductList from './compoment/ProductList'
+import Home from './pages/Home'
+import RouterConfig from './config/RouterConfig'
 
 function App() {
 
   return (
-    <Provider store={store}>
+    <div>
       <Header />
-      <ProductList/>
-    </Provider>
+      <RouterConfig />
+    </div>
   )
 }
 
