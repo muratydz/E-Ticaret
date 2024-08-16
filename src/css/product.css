@@ -19,7 +19,7 @@
 .proTitle {
     display: flex;
     justify-content: center;
-    height: 90px;
+    height: 75px;
 
 }
 
@@ -41,4 +41,22 @@
     background-color: rgb(167, 167, 252);
 
 
+}
+.selectedImg{
+    margin-top: 100px;
+    margin-left: 360px;
+    margin-right: 70px;
+    height: auto;
+    width: 300px;
+}
+.basketbt{
+    padding: 10px 25px;
+    font-size: 15px;
+    background-color: rgb(186, 186, 248);
+    border: none;
+    border-radius: 5px;
+}
+.basketbt:hover{
+    cursor: pointer;
+    background-color: rgb(158, 158, 245);
 }
